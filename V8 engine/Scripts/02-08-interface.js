@@ -1,8 +1,16 @@
 var demo_02_08;
 (function (demo_02_08) {
+    //var p: IPerson = {
+    //    name: 'Dave',
+    //    age: 40,
+    //    kids: 4,
+    //    calcPets: () => p.kids * 4,
+    //    makeYounger: (years: number) => p.age -= years,
+    //    greet: (msg: string) => msg + ',' + p.name,
+    //}
     var p = {
-        name: 'Dave',
-        age: 40,
+        name: 'ram',
+        age: 56,
         kids: 4,
         calcPets: function () { return p.kids * 4; },
         makeYounger: function (years) { return p.age -= years; },
