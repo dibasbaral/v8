@@ -34,7 +34,7 @@ class Engine {
 }
 
 window.onload = () => {
-    var car = new Car(new Engine(123,"V8"));
+    var car = new Car(new Engine(123,"V8ghty"));
 
     car.start();
     car.stop();
